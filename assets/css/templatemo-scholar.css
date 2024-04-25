@@ -170,10 +170,22 @@ body {
   border-radius: 20px;
   transition: all .3s;
 }
-
-.main-button a:hover {
+.main-button.dash a {
+  display: inline-block;
   background-color: #5b3de2;
   color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 40px;
+  padding: 0px 25px;
+  border-radius: 20px;
+  transition: all .3s;
+}
+.main-button.dash a:hover {
+  background-color: #fff;
+  color: #5b3de2;
+  border: 2px solid #5b3de2;
 }
 
 /* 
@@ -1672,7 +1684,8 @@ Footer Style
 footer {
   margin-top: 150px;
   position: relative;
-  background-color: #5b3de2;
+  background-color: black;
+  color: #ddd;
   vertical-align: middle;
   min-height: 150px;
   border-radius: 150px 150px 0px 0px;
