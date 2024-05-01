@@ -1978,4 +1978,10 @@ div#signup.contact-us.section.signup-container::before{
   display: none;
   background-color: black;
 }
- 
+ .row.event_box.inside img{
+  height: 310px;
+  width:310px
+ }
+ .row.event_box.outside img{
+  height: 600px;
+ }
